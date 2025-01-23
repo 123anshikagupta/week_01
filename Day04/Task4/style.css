@@ -1,0 +1,38 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #061151;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b07aa5;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: rgb(204, 93, 93);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Content alignment */
+.Flexbox {
+    text-align: center;
+}
