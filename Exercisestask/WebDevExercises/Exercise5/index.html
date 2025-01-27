@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: sticky;
+            top: 0;
+        }
+        nav{
+            background-color: rgb(31, 99, 99);
+            height: 85px;
+            
+        }
+        main{
+            background-color: rgb(118, 70, 70);
+            color: white;
+            padding: 34px;
+        }
+        .container{
+            background-color: rgb(136, 105, 67);
+            margin: 12px 34px;
+            text-align: center;
+            padding: 55px 23px;
+            .animated-border {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  background: #7a6379;
+  border: 5px solid transparent;
+  border-image: linear-gradient(45deg, #793232, #2d7c2d, #4747be, #be5454);
+  border-image-slice: 1;
+  animation: borderAnimation 3s linear infinite;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-image-source: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  }
+  100% {
+    border-image-source: linear-gradient(405deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  }
+}
+        }
+
+        .box1{
+            background-color: rgb(30, 30, 96);
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        .box2{
+            background-color: rgb(83, 83, 145);
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+        .text-box{
+            padding: 34px;
+            border: 2px solid  white;
+            margin: 10px 34vh;
+            font-size: 2em;
+            border-radius: 13px;
+        }
+        footer{
+            height: 100px;
+            background-color: rgb(2, 91, 133);
+        }
+
+        .circle{
+            height: 32px;
+            width: 32px;
+            background: rgb(188, 129, 21);
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+        }
+        .heading{
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <h1 class="heading">Such a boring page</h1>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="animated-border">
+
+            <div class="box1">
+                
+
+                <img width="520px" height="490" src="photo1.png.jpg" alt="">
+            </div>
+            <div class="box2">
+                <img width="520px" height="490" src="photo1.png.jpg" alt="">
+            </div>
+</div>
+        </div>
+
+        <div class="text-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolore.
+        </p>
+    </div>
+
+    <div class="circle"></div>
+    </main>
+     
+    <footer>
+
+    </footer>
+</body>
+</html>
